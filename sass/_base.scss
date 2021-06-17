@@ -1,0 +1,54 @@
+// Colours
+$colour-orange: hsl(31, 77%, 52%);
+$colour-cyan-light: hsl(184, 100%, 22%);
+$colour-cyan-dark: hsl(179, 100%, 13%);
+
+$colour-grey-light: hsla(0, 0%, 100%, 0.75);
+$colour-grey-dark: hsl(0, 0%, 95%);
+
+// Fonts
+$font-primary: "Lexend Deca", sans-serif;
+$font-display: "Big Shoulders Display", cursive;
+
+// Responsive Design
+$bp-mobile: 700px;
+
+// Base Styles
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 400;
+  color: $colour-grey-light;
+  display: grid;
+  justify-items: center;
+  height: 100vh;
+  grid-template-rows: 75% 25%;
+
+  @media only screen and (max-width: $bp-mobile) {
+    height: 200vh;
+    grid-template-rows: 90% 10%;
+  }
+}
+
+.attribution {
+  color: $colour-cyan-dark;
+  align-self: center;
+  grid-row: 2/3;
+
+  @media only screen and (max-width: $bp-mobile) {
+    text-align: center;
+    width: 95%;
+  }
+}

@@ -1,0 +1,95 @@
+.cards {
+  align-self: flex-end;
+  display: flex;
+  width: 59.5rem;
+  height: 33rem;
+
+  @media only screen and (max-width: $bp-mobile) {
+    flex-direction: column;
+    width: 21rem;
+    margin: 4rem 0;
+    align-self: flex-start;
+  }
+
+  &__card {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &--1 {
+      background-color: $colour-orange;
+      border-radius: 0.5rem 0 0 0.5rem;
+
+      @media only screen and (max-width: $bp-mobile) {
+        border-radius: 0.5rem 0.5rem 0 0;
+      }
+    }
+
+    &--2 {
+      background-color: $colour-cyan-light;
+    }
+
+    &--3 {
+      background-color: $colour-cyan-dark;
+      border-radius: 0 0.5rem 0.5rem 0;
+
+      @media only screen and (max-width: $bp-mobile) {
+        border-radius: 0 0 0.5rem 0.5rem;
+      }
+    }
+
+    &--img {
+      width: 4.25rem;
+    }
+
+    &--header {
+      font-family: $font-display;
+      color: $colour-grey-dark;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+
+      @media only screen and (max-width: $bp-mobile) {
+        padding: 2rem 0;
+      }
+    }
+
+    &--text {
+      padding-bottom: 4rem;
+      line-height: 1.5;
+
+      @media only screen and (max-width: $bp-mobile) {
+        padding-bottom: 2rem;
+        line-height: 1.7;
+      }
+    }
+
+    &--btn {
+      background-color: $colour-grey-dark;
+      border: 0.15rem solid $colour-grey-dark;
+      border-radius: 2rem;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      align-self: flex-start;
+      transition: all 0.2s;
+
+      &:hover {
+        background-color: inherit;
+        color: $colour-grey-dark;
+        cursor: pointer;
+      }
+
+      &-1 {
+        color: $colour-orange;
+      }
+
+      &-2 {
+        color: $colour-cyan-light;
+      }
+
+      &-3 {
+        color: $colour-cyan-dark;
+      }
+    }
+  }
+}
