@@ -30,6 +30,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: https://github.com/CandiceWeaver/3-column-preview-card-component-main
 - Live Site URL: (https://3-column-preview-card-component-main-green.vercel.app/)
 
 ## My process
@@ -51,6 +52,6 @@ I will continue to practice my skills and get faster as coding.
 
 ## Author
 
-- Website - [Candice Weaver Developments](www.candiceweaver.dev)
+- Website - [Candice Weaver Developments](https://www.candiceweaver.dev)
 - Frontend Mentor - [@CandiceWeaver](https://www.frontendmentor.io/profile/CandiceWeaver)
 - Twitter - [@\_CandiceWeaver](https://www.twitter.com/_CandiceWeaver)
