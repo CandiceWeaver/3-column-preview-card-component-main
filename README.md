@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
--[Desktop](images\desktop-screenshot-complete.png) -[Mobile](images\mobile-screenshot-complete.png)
+![Desktop](images\desktop-screenshot-complete.png) ![Mobile](images\mobile-screenshot-complete.png)
 
 ### Links
 
