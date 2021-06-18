@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](images\desktop-screenshot-complete.png) ![Mobile](images\mobile-screenshot-complete.png)
+![Desktop](https://raw.githubusercontent.com/CandiceWeaver/3-column-preview-card-component-main/main/images/desktop-screenshot-complete.png)
+![Mobile](https://raw.githubusercontent.com/CandiceWeaver/3-column-preview-card-component-main/main/images/mobile-screenshot-complete.png)
 
 ### Links
 
