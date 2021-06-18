@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/CandiceWeaver/3-column-preview-card-component-main
-- Live Site URL: https://3-column-preview-card-component-main-green.vercel.app/
+- Solution: [Github](https://github.com/CandiceWeaver/3-column-preview-card-component-main)
+- Live Site: [Vercel](https://3-column-preview-card-component-main-green.vercel.app/)
 
 ## My process
 
